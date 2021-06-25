@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.page_frame{
+    width: 80%;
+    margin: auto;
+    background-color: pink;
+    border: solid 1px black;
+}
