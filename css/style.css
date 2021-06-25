@@ -30,3 +30,19 @@ footer{
 .articles_frame{
     background-color: #0186FF;
 }
+.float_container{
+    padding: 7px 0;
+}
+.articles_title, .article1, .article2, .article3{
+    background-color: #ABCFE7;
+}
+.article1 , .article2, .article3{
+    float: left;
+}
+.article2{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+}
+.article1, .article3{
+    width: 25%;
+}
