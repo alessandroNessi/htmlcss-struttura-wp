@@ -3,14 +3,17 @@
     border: 0;
     box-sizing: border-box;
 }
+.page_frame footer{
+    margin-top: 3px;
+}
 .page_frame{
     width: 80%;
     margin: auto;
-    background-color: pink;
-    border: solid 1px black;
+    /* background-color: pink;
+    border: solid 1px black; */
 }
 .std_margin{
-    margin: 10px 0;
+    margin-top: 10px;
 }
 .clearfix::after {
     content: "";
@@ -31,7 +34,7 @@ footer{
     background-color: #0186FF;
 }
 .float_container{
-    padding: 7px 0;
+    padding: 10px 0;
 }
 .articles_title, .article1, .article2, .article3{
     background-color: #ABCFE7;
