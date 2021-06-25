@@ -9,3 +9,24 @@
     background-color: pink;
     border: solid 1px black;
 }
+.std_margin{
+    margin: 10px 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+header{
+    background-color: #E579E6;
+}
+main .main_article{
+    background-color: #E1D67A;
+
+}
+footer{
+    background-color: #8801FE;
+}
+.articles_frame{
+    background-color: #0186FF;
+}
